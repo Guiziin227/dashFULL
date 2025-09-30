@@ -44,3 +44,5 @@ yarn-error.log*
 *.pem
 
 /generated/prisma
+
+.idea
