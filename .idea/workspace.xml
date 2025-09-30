@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec1ae885-28e3-456c-b92c-c827f6ff90e3" name="Changes" comment="Configurando prisma e docker">
+    <list default="true" id="ec1ae885-28e3-456c-b92c-c827f6ff90e3" name="Changes" comment="Atualiza package-lock.json com novas dependências e configurações do workspace">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/api/src/auth/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/src/auth/auth.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/api/apps/api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/apps/api/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/api/src/user/user.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/src/user/user.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/web/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/web/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/web/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/web/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +54,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "npm.api > start:dev.executor": "Run",
     "settings.editor.selected.configurable": "preferences.general",
     "ts.external.directory.path": "D:\\Fronts\\dashboard\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
@@ -59,7 +65,7 @@
       <recent name="D:\Fronts\dashboard\apps\api\src\user\dto" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.api &gt; start:dev">
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
       <deployment type="docker-compose.yml" />
       <method v="2" />
@@ -72,8 +78,19 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration name="api &gt; start:dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/apps/api/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start:dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.api &gt; start:dev" />
         <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
       </list>
     </recent_temporary>
@@ -92,7 +109,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1759253427166</updated>
-      <workItem from="1759253428400" duration="4838000" />
+      <workItem from="1759253428400" duration="6219000" />
     </task>
     <task id="LOCAL-00001" summary="Configurando prisma e docker">
       <option name="closed" value="true" />
@@ -102,7 +119,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759255069489</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Atualiza package-lock.json com novas dependências e configurações do workspace">
+      <option name="closed" value="true" />
+      <created>1759261246055</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1759261246055</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,7 +146,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Configurando prisma e docker" />
-    <option name="LAST_COMMIT_MESSAGE" value="Configurando prisma e docker" />
+    <MESSAGE value="Atualiza package-lock.json com novas dependências e configurações do workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="Atualiza package-lock.json com novas dependências e configurações do workspace" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
