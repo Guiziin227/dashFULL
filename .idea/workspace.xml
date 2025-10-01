@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ec1ae885-28e3-456c-b92c-c827f6ff90e3" name="Changes" comment="Fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/lib/auth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/lib/auth.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/components/SignInButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/components/SignInButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/lib/session.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/lib/session.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,37 +46,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/Fronts/dashboard",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.api > dev.executor": "Run",
-    "npm.api > start:dev.executor": "Run",
-    "npm.web > dev.executor": "Run",
-    "prettierjs.PrettierConfiguration.Package": "D:\\Fronts\\dashboard\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
-    "ts.external.directory.path": "D:\\Fronts\\dashboard\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Docker.docker-compose.yml: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Fronts/dashboard&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.api &gt; dev.executor&quot;: &quot;Run&quot;,
+    &quot;npm.api &gt; start:dev.executor&quot;: &quot;Run&quot;,
+    &quot;npm.web &gt; dev.executor&quot;: &quot;Run&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;D:\\Fronts\\dashboard\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.linters.eslint&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\Fronts\\dashboard\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Fronts\dashboard" />
       <recent name="D:\Fronts\dashboard\apps\api\src\user\dto" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
+  <component name="RunManager" selected="npm.web &gt; dev">
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
       <deployment type="docker-compose.yml">
         <settings />
@@ -123,9 +123,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
         <item itemvalue="npm.web &gt; dev" />
         <item itemvalue="npm.api &gt; dev" />
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
         <item itemvalue="npm.api &gt; start:dev" />
       </list>
     </recent_temporary>
@@ -148,6 +148,7 @@
       <workItem from="1759266619733" duration="318000" />
       <workItem from="1759277106707" duration="3608000" />
       <workItem from="1759327448285" duration="4708000" />
+      <workItem from="1759357688291" duration="1771000" />
     </task>
     <task id="LOCAL-00001" summary="Configurando prisma e docker">
       <option name="closed" value="true" />
