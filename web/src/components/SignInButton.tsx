@@ -26,12 +26,12 @@ const SignInButton = async () => {
       ) : (
         <>
           <span className="text-white">{session.user.name}!</span>
-          <Link
-            href={"#"}
+          <a
+            href={"/api/auth/signout"}
             className="px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700 transition"
           >
             Sign Out
-          </Link>
+          </a>
         </>
       )}
     </div>
