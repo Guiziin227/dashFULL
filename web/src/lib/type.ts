@@ -15,7 +15,7 @@ export const SignUpFormSchema = z.object({
     .string()
     .min(2, { message: "Name must be at least 2 characters." })
     .trim(),
-  email: z.string().email({ message: "Invalid email address." }).trim(),
+  email: z.email({ message: "Invalid email address." }).trim(),
   password: z
     .string()
     .min(8, { message: "Password must be at least 8 characters." })
@@ -24,4 +24,9 @@ export const SignUpFormSchema = z.object({
     .regex(/[^a-zA-Z0-9]/, { message: "Password must contain at least one special character." })
 
     .trim()
+});
+
+export const SignInFormSchema = z.object({
+  email: z.email({ message: "Invalid email address." }).trim(),
+  password: z.string().min(8, { message: "Password must be at least 8 characters." }).trim(),
 });

@@ -1,6 +1,6 @@
 "use server";
 
-import { FormState, SignUpFormSchema } from "@/lib/type";
+import { FormState, SignInFormSchema, SignUpFormSchema } from "@/lib/type";
 import { BACKEND_URL } from "@/lib/contants";
 import { redirect } from "next/navigation";
 
@@ -37,5 +37,38 @@ export async function signUp(
           ? "User already exists."
           : "Something went wrong. Please try again.",
     };
+  }
+}
+
+export async function signIn(
+  state: FormState,
+  formData: FormData,
+): Promise<FormState> {
+
+  const validatedFields = SignInFormSchema.safeParse({
+    email: formData.get("email"),
+    password: formData.get("password"),
+  });
+
+  if (!validatedFields.success) {
+    error: validatedFields.error.flatten().fieldErrors;
+  }
+
+  const response = await fetch(`${BACKEND_URL}/auth/signin`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(validatedFields.data),
+  });
+
+  if (response.ok) {
+    const result = await response.json();
+    console.log({ result });
+  }
+  else {
+    return {
+      message: response.status === 401 ? "Invalid credentials." : "Something went wrong. Please try again.",
+    }
   }
 }
