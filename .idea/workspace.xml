@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec1ae885-28e3-456c-b92c-c827f6ff90e3" name="Changes" comment="Implementa validação e integração da funcionalidade de cadastro">
+    <list default="true" id="ec1ae885-28e3-456c-b92c-c827f6ff90e3" name="Changes" comment="Fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/app/auth/signup/singupForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/app/auth/signup/singupForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/lib/auth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/lib/auth.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
       </list>
     </option>
@@ -52,15 +55,17 @@
     "git-widget-placeholder": "main",
     "last_opened_file_path": "D:/Fronts/dashboard",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "npm.api > dev.executor": "Run",
     "npm.api > start:dev.executor": "Run",
     "npm.web > dev.executor": "Run",
     "prettierjs.PrettierConfiguration.Package": "D:\\Fronts\\dashboard\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
     "ts.external.directory.path": "D:\\Fronts\\dashboard\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -71,7 +76,7 @@
       <recent name="D:\Fronts\dashboard\apps\api\src\user\dto" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.api &gt; dev">
+  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
       <deployment type="docker-compose.yml">
         <settings />
@@ -118,10 +123,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.api &gt; dev" />
-        <item itemvalue="npm.web &gt; dev" />
-        <item itemvalue="npm.api &gt; start:dev" />
         <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+        <item itemvalue="npm.web &gt; dev" />
+        <item itemvalue="npm.api &gt; dev" />
+        <item itemvalue="npm.api &gt; start:dev" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +146,8 @@
       <updated>1759253427166</updated>
       <workItem from="1759253428400" duration="8883000" />
       <workItem from="1759266619733" duration="318000" />
-      <workItem from="1759277106707" duration="2884000" />
+      <workItem from="1759277106707" duration="3608000" />
+      <workItem from="1759327448285" duration="4708000" />
     </task>
     <task id="LOCAL-00001" summary="Configurando prisma e docker">
       <option name="closed" value="true" />
@@ -191,7 +197,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759280078526</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Fix">
+      <option name="closed" value="true" />
+      <created>1759280375970</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1759280375970</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,7 +230,8 @@
     <MESSAGE value="Adiciona .idea ao .gitignore e atualiza layout de autenticação" />
     <MESSAGE value="Adiciona constante BACKEND_URL para configuração do ambiente" />
     <MESSAGE value="Implementa validação e integração da funcionalidade de cadastro" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementa validação e integração da funcionalidade de cadastro" />
+    <MESSAGE value="Fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
