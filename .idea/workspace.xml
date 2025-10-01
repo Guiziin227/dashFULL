@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec1ae885-28e3-456c-b92c-c827f6ff90e3" name="Changes" comment="Fix">
+    <list default="true" id="ec1ae885-28e3-456c-b92c-c827f6ff90e3" name="Changes" comment="Adiciona o componente AppBar ao layout e cria um novo arquivo Page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/components/SignInButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/components/SignInButton.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/lib/session.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/lib/session.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/dashboard/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/app/dashboard/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/components/ui/appBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/components/ui/appBar.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +147,7 @@
       <workItem from="1759266619733" duration="318000" />
       <workItem from="1759277106707" duration="3608000" />
       <workItem from="1759327448285" duration="4708000" />
-      <workItem from="1759357688291" duration="1771000" />
+      <workItem from="1759357688291" duration="2262000" />
     </task>
     <task id="LOCAL-00001" summary="Configurando prisma e docker">
       <option name="closed" value="true" />
@@ -206,7 +205,23 @@
       <option name="project" value="LOCAL" />
       <updated>1759280375970</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Implementando a delecao de sessao">
+      <option name="closed" value="true" />
+      <created>1759359626626</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1759359626626</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Adiciona o componente AppBar ao layout e cria um novo arquivo Page">
+      <option name="closed" value="true" />
+      <created>1759359654251</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1759359654251</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +247,9 @@
     <MESSAGE value="Adiciona constante BACKEND_URL para configuração do ambiente" />
     <MESSAGE value="Implementa validação e integração da funcionalidade de cadastro" />
     <MESSAGE value="Fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix" />
+    <MESSAGE value="Implementando a delecao de sessao" />
+    <MESSAGE value="Adiciona o componente AppBar ao layout e cria um novo arquivo Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adiciona o componente AppBar ao layout e cria um novo arquivo Page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
