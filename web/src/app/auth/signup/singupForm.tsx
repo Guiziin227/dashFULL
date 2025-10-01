@@ -12,7 +12,7 @@ const SingupForm = () => {
     const [state,action] = useFormState(signUp,undefined);
 
     return (
-        <form action={action} onSubmit={SingupForm}>
+        <form action={action}>
             <div className="flex flex-col gap-4">
               {state?.message && (
                 <div className="text-red-500 text-sm">{state.message}</div>
