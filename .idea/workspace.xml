@@ -4,17 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec1ae885-28e3-456c-b92c-c827f6ff90e3" name="Changes" comment="Adiciona layout de autenticação e página de cadastro">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="ec1ae885-28e3-456c-b92c-c827f6ff90e3" name="Changes" comment="Adiciona .idea ao .gitignore e atualiza layout de autenticação">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/auth/signup/singupForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/app/auth/signup/singupForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/lib/auth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/lib/auth.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/lib/type.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/lib/type.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,6 +60,8 @@
     "nodejs_package_manager_path": "npm",
     "npm.api > dev.executor": "Run",
     "npm.api > start:dev.executor": "Run",
+    "npm.web > dev.executor": "Run",
+    "prettierjs.PrettierConfiguration.Package": "D:\\Fronts\\dashboard\\node_modules\\prettier",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "ts.external.directory.path": "D:\\Fronts\\dashboard\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
@@ -100,9 +108,20 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="web &gt; dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/web/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="npm.api &gt; dev" />
+        <item itemvalue="npm.web &gt; dev" />
         <item itemvalue="npm.api &gt; start:dev" />
         <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
       </list>
@@ -123,7 +142,8 @@
       <option name="presentableId" value="Default" />
       <updated>1759253427166</updated>
       <workItem from="1759253428400" duration="8883000" />
-      <workItem from="1759266619733" duration="204000" />
+      <workItem from="1759266619733" duration="318000" />
+      <workItem from="1759277106707" duration="2675000" />
     </task>
     <task id="LOCAL-00001" summary="Configurando prisma e docker">
       <option name="closed" value="true" />
@@ -149,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759264596122</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adiciona .idea ao .gitignore e atualiza layout de autenticação">
+      <option name="closed" value="true" />
+      <created>1759266902967</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1759266902967</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,7 +199,8 @@
     <MESSAGE value="Atualiza package-lock.json com novas dependências e configurações do workspace" />
     <MESSAGE value="Atualiza layout e configurações do projeto, adiciona novas dependências do Prisma" />
     <MESSAGE value="Adiciona layout de autenticação e página de cadastro" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adiciona layout de autenticação e página de cadastro" />
+    <MESSAGE value="Adiciona .idea ao .gitignore e atualiza layout de autenticação" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adiciona .idea ao .gitignore e atualiza layout de autenticação" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
