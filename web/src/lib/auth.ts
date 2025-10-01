@@ -3,6 +3,7 @@
 import { FormState, SignInFormSchema, SignUpFormSchema } from "@/lib/type";
 import { BACKEND_URL } from "@/lib/contants";
 import { redirect } from "next/navigation";
+import { createSession } from "@/lib/session";
 
 export async function signUp(
   state: FormState,
@@ -64,7 +65,13 @@ export async function signIn(
 
   if (response.ok) {
     const result = await response.json();
-    console.log({ result });
+    await createSession({
+      user: {
+        id: result.id,
+        name: result.name,
+      }
+    })
+    redirect("/")
   }
   else {
     return {
